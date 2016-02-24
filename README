@@ -1,0 +1,15 @@
+Planet Money MP3 scraper
+
+Download all of the Planet Money MP3s.
+
+Honestly this program is pretty fragile and requires you already have a
+list of URLs to scrape from which you can get from the Planet Money
+podcast archive, and the MP3s it downloads aren't tagged correctly. Just
+needed something that worked.
+
+The program downloads to the current directory by default; if you want to
+specify another directory, pass it as an argument to the script, e.g.
+
+    python scraper.py $DOWNLOAD_DIRECTORY
+
+Licensed under the BSD 3-clause license; see LICENSE for details.
